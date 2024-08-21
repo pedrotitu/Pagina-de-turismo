@@ -1,0 +1,36 @@
+img {
+  border-radius: 28px;
+}
+
+#kontainer {
+  box-sizing: border-box;
+  width: 1120px;
+  margin: 88px auto 137px auto;
+  
+}
+
+.headline {
+  color: #E1624F;
+}
+
+p.headline{
+  margin: 0;
+}
+
+h1 {
+  margin-top: 8px;
+  margin-bottom: 0;
+
+}
+
+#img1 {
+  margin-top: 40px;
+}
+
+#img1-description {
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 40px;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
