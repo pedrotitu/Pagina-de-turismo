@@ -39,6 +39,7 @@ h1 {
   font-style: italic;
   text-align: center;
   margin-bottom: 40px;
+  color: #333333;
 }
 
 hr {
@@ -46,6 +47,18 @@ hr {
   height: 1px;
   border: none;
 
+}
+
+h2 {
+  margin-top: 2px;
+  margin-bottom: 0px;
+  font-size: 32px;
+}
+
+#subtittle_text {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  color: #333333;
 }
 
 #tittle_list {
@@ -79,11 +92,30 @@ ol li {
 
 h3 {
   margin: 0;
+  font-size: 28px;
 }
 
 .desc-text {
   margin-top: 4px;
   margin-bottom: 0px;
+  color: #333333;
+}
+
+ul {
+  list-style-type: disc;
+  font-size: 16px;
+}
+
+::marker {
+  font-size: 28px;
+  color: #333333;
+  font-weight: bold;
+}
+
+ul ::marker {
+  font-size: 16px;
+  color: #333333;
+  font-weight: bold;
 }
 
 .historia {
@@ -127,4 +159,9 @@ h3 {
 
 .desc_credits {
   text-align: center;
+  color: #333333;
+}
+
+#heart-icon {
+  vertical-align: middle;
 }
