@@ -1,8 +1,13 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+  
+}
+
 img {
   border-radius: 28px;
 }
 
-#kontainer {
+#container {
   box-sizing: border-box;
   width: 1120px;
   margin: 88px auto 137px auto;
@@ -11,26 +16,112 @@ img {
 
 .headline {
   color: #E1624F;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-p.headline{
+p.headline {
   margin: 0;
 }
 
 h1 {
+  font-size: 36px;
   margin-top: 8px;
-  margin-bottom: 0;
+  margin-bottom: 40;
 
 }
 
 #img1 {
-  margin-top: 40px;
+  margin-bottom: 24px;
 }
 
-#img1-description {
+#desc_img {
   font-style: italic;
   text-align: center;
-  padding-bottom: 40px;
-  margin-top: 24px;
-  margin-bottom: 0;
+  margin-bottom: 40px;
+}
+
+hr {
+  background-color: #D9D9D9;
+  height: 1px;
+  border: none;
+
+}
+
+#tittle_list {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+ol {
+  padding-left: 0px;
+}
+
+#list {
+  padding: 0px;
+
+}
+
+
+.list_imgs {
+  margin-top: 48px;
+  padding-bottom: 20px;
+
+}
+
+#content-card {
+  padding-top: 20px;
+}
+
+h3 {
+  margin: 0;
+}
+
+.desc-text {
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+.historia {
+  color: #0C51A7;
+  font-weight: bold;
+}
+
+.casais {
+  color: #591B98;
+  font-weight: bold;
+}
+
+.familias {
+  color: #E5245E;
+  font-weight: bold;
+}
+
+.orcamento {
+  color: #E95E10;
+  font-weight: bold;
+}
+
+
+
+#creditos {
+  font-family: ;
+  box-sizing: border-box;
+  width: 206px;
+  margin: 65px auto 48px auto;
+  font-family: "Alice", serif;
+
+}
+
+.desc_tittle {
+  font-weight: bold;
+}
+
+#hr2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.desc_credits {
+  text-align: center;
 }
